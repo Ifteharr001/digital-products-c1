@@ -1,3 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-container{
+    background-color: #012721;
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-image{
+    width: 150px;
+}
+.list-item{
+    font-size: 18px;
+    margin-right: 20px;
+}
+.list-item:hover{
+    color: rgb(128, 228, 128);
+    font-size: 20px;
+}
+.manu{
+    color: #fff;
+    display: flex;
+    cursor: pointer;
+}
+
+/* this is banner css */
+
+.banner-container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background-image: url("./images/background.png"), linear-gradient(45deg,#012721,#000);
+    justify-content: space-around;
+}
+.banner-photo{
+    width: 400px;
+    height: 400px;
+}
+.banner-text{
+    color: #fff;
+}
 h1{
-    color: red;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 22px;
+    margin: 10px 0 25px 0;
+}
+.btn{
+    padding: 15px 22px 15px 22px;
+    border-radius: 10px;
+    background-color: #012721;
+}
+.btn-x:hover{
+    background-color: #000;
+    cursor: pointer;
+}
+.btn-text{
+    color: #fff;
+    font-size: 20px;
+}
+
+/* this is about section CSS */
+
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-title h1{
+    margin-top: 50px;
+    text-align: center;
+}
+.about-sub-title h2{
+    margin-top: 25px;
+    font-size: 40px;
+}
+.about-sub-title p{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.about-photo{
+    height: 300px;
+    width: 300px;
 }
