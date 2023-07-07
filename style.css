@@ -73,7 +73,7 @@ p{
     justify-content: space-around;
     flex-direction: row-reverse;
 }
-.about-title h1{
+.about-title h1, .service-title{
     margin-top: 50px;
     text-align: center;
 }
@@ -93,4 +93,53 @@ p{
 .about-photo{
     height: 300px;
     width: 300px;
+}
+
+
+.service-section{
+    background-image: url("./images/background.png"), linear-gradient(45deg,#012721,#000);
+    padding: 40px 0px 50px 0px;
+}
+.services-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.box{
+    width: 270px;
+    height: 350px;
+    background-color: black;
+    box-shadow: 5px 5px 18px gray;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 8px;
+}
+.service-section h1{
+    color: #fff;
+}
+.icon{
+    width: 70px;
+}
+.box h2{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.box p{
+    font-size: 20px;
+}
+.footer-container{
+    background-color: #012721;
+    color: #fff;
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.list-container{
+    display: flex;
+}
+.footer-logo img{
+    width: 200px;
 }
