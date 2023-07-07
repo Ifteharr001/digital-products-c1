@@ -71,6 +71,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-direction: row-reverse;
 }
 .about-title h1{
     margin-top: 50px;
@@ -83,6 +84,11 @@ p{
 .about-sub-title p{
     margin-top: 20px;
     font-size: 25px;
+    margin-right: 130px;
+}
+.about-image{
+    margin-left: 100px;
+    margin-right: 170px;
 }
 .about-photo{
     height: 300px;
